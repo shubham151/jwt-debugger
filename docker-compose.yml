@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  jwt-debugger:
+    build: .
+    ports:
+      - "3004:80"
+    restart: unless-stopped
